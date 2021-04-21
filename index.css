@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1,
+h3{
+    font-size: 2.6rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+
+li{
+    font-size: 2rem;
+}
+p{
+    font-size: 2rem;
+}
+a{
+    color: forestgreen;
+    text-decoration: none;
+}
+.main-head {
+    background: peru;
+    color: springgreen;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    flex: 2 1 40rem;
+
+}
+img#logo{
+    width: 150px;
+}
+
+/*HERO */
+
+section{
+    min-height: 90vh;
+    background: url(lili.jpg);
+    background-size: cover;
+    background-position: center;
+    color: maroon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+h3{
+    padding: 1.8rem;
+    
+}
+button{
+    padding: 0.5rem 3.5rem;
+    background: peru;
+    color: springgreen;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+div#Cascadesdedindefelo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    line-height: 30px;
+    
+}
+#Cascadesdedindefelo {
+    display: inline-block;
+    vertical-align: auto;
+    float: left;
+    padding: 20px;
+}
+  
+img {
+    float: initial;
+    width: 150px;
+    border-radius: 0px;
+    box-shadow: 10px 10px 5px black;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div#Tahiti{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    line-height: 30px;
+    
+}
+#Tahiti {
+    display: inline-block;
+    vertical-align: auto;
+    float: center;
+    padding-left: 130px;
+    padding-top: 1.8em;
+}
+
+div#Malacca{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    line-height: 30px;
+  }
+ 
+
+#Malacca {
+    float: right;
+    vertical-align: auto;
+    display: inline-block;
+    padding: 20px;
+}
+div {
+    display: block;
+}
+ 
+div {
+    display: block;
+}
+
+}
+img {
+    float: initial;
+    width: 200px;
+    border-radius: 0px;
+    box-shadow: 10px 10px 5px black;
+}
